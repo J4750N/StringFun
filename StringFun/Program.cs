@@ -11,7 +11,7 @@ namespace StringFun
     {
         static void Main(string[] args)
         {
-            string string1 = "Here is some text";
+            string string1 = "Here is text";
             string string2 = "Here is some more text";
 
             bool result = string1.Equals(string2, StringComparison.OrdinalIgnoreCase);
